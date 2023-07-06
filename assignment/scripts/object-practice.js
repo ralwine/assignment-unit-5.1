@@ -14,6 +14,8 @@ const me = {
   lastName: 'Alwine',
   hasSiblings: true,
   shoeCount: 6,
+  // STRETCH: How would I add the string 'pair'/'pairs' here 
+  //without changing the number to a string?
   favThreeFoods: ['tortas', 'sushi', 'pizza'],
 }; // end me
 console.log('A little about me:', me);
@@ -24,7 +26,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = me.firstName +' '+ me.lastName;
+let fullName = me.firstName + ' ' + me.lastName;
 console.log(fullName);
 console.log(me);
 // notice fullName is not a property of me,
